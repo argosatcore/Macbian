@@ -1,0 +1,12 @@
+[Added Associations]
+image/png=ristretto.desktop;firefox-esr.desktop;
+text/plain=mousepad.desktop;libreoffice-writer.desktop;
+video/mp4=mpv.desktop;
+image/svg+xml=org.inkscape.Inkscape.desktop;
+text/x-lua=mousepad.desktop;
+image/jpeg=ristretto.desktop;feh.desktop;
+application/pdf=atril.desktop;
+
+[Default Applications]
+image/jpeg=ristretto.desktop
+application/pdf=atril.desktop
