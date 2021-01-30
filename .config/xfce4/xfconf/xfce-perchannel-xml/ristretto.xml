@@ -5,8 +5,8 @@
     <property name="navigationbar" type="empty">
       <property name="position" type="string" value="left"/>
     </property>
-    <property name="height" type="uint" value="860"/>
-    <property name="width" type="uint" value="705"/>
+    <property name="height" type="uint" value="852"/>
+    <property name="width" type="uint" value="699"/>
   </property>
   <property name="desktop" type="empty">
     <property name="type" type="string" value="xfce"/>

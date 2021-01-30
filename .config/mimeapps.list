@@ -6,6 +6,11 @@ image/svg+xml=org.inkscape.Inkscape.desktop;
 text/x-lua=mousepad.desktop;
 image/jpeg=ristretto.desktop;feh.desktop;
 application/pdf=atril.desktop;
+application/x-xz-compressed-tar=xarchiver.desktop;
+application/xml=mousepad.desktop;firefox-esr.desktop;
+text/x-scheme=mousepad.desktop;
+video/x-matroska=mpv.desktop;
+application/x-shellscript=nvim.desktop;
 
 [Default Applications]
 image/jpeg=ristretto.desktop
