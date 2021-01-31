@@ -13,7 +13,7 @@ This is a licit question, specially given the vast number of Linux ditributions.
 
 # Requierments
 
-1-A flashdrive with a live version of the stable branch of the current version of the Debian GNU/Linux Operating System.
+1-A flashdrive with a live non-free version of the stable branch of the current version of the Debian GNU/Linux Operating System.
 
 2- A 2011 MacBook Pro with a defective dedicated graphics card.
 
