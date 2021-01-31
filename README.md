@@ -8,7 +8,7 @@ The primary object of this documentation is to have an up to date manual in orde
 
 # Why Debian and not some other OS?
 
-This is a licit question, specially given the vast number of Linux ditributions. The reason why I chose Debian as oposed to a rolling release is because the parametric modifications made to the Linux Kernel and to the Grub Bootloader need to be re written each time any of this components is updated. Due to the impredictable nature of this components, I rather have a consistent system that keeps changes to the bare minimun. 
+This is a licit question, specially given the vast number of Linux ditributions. The reason why I chose Debian as oposed to a distribution with more regular point releases or a rolling release is because the parametric modifications made to the Linux Kernel and to the Grub Bootloader need to be re written each time any of this components is updated. Due to the impredictable nature of regular releases, having a consistent and predictable system that keeps changes to the bare minimun reduces the chances of having to go through these guide again. 
 
 ---
 
@@ -46,4 +46,4 @@ This is a licit question, specially given the vast number of Linux ditributions.
 
 10-Repeat steps 1 to 6.
 
-# TODO: Finish the steps.
+# TODO: Finish the steps, polish overall writing.
