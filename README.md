@@ -1,6 +1,7 @@
 # Documentation on how to install Debian GNU/Linux on a defective 2011 MacBook Pro.
 
 The primary object of this documentation is to have an up to date manual in order to have an usable machine running a robust OS like Debian. Due to the infamous dedicated graphic cards fiasco found on 2011 Macbook Pros, running Mac OS X was no longer a viable option due to its inablity to avoid the detection of the defective graphic card. The free and open source nature of Linux OS's, like Debian, allows one to modifiy the kernel's parameters to make the machine use only the integraded graphic card, thus making the machine usable again.
+
 ![rect830-3-3-36](https://user-images.githubusercontent.com/64110504/94893124-a73c5100-0443-11eb-9bd2-039d037423e5.png)
 
 ---
@@ -11,7 +12,7 @@ This is a licit question, specially given the vast number of Linux ditributions.
 
 ---
 
-# Requierments
+# Requierements
 
 1-A flashdrive with a live non-free version of the stable branch of the current version of the Debian GNU/Linux Operating System.
 
