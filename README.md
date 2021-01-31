@@ -2,7 +2,7 @@
 
 The primary object of this documentation is to have an up to date manual in order to have an usable machine running a robust OS like Debian. Due to the infamous dedicated graphic cards fiasco found on 2011 Macbook Pros, running Mac OS X was no longer a viable option due to its inablity to avoid the detection of the defective graphic card. The free and open source nature of Linux OS's, like Debian, allows one to modifiy the kernel's parameters to make the machine use only the integraded graphic card, thus making the machine usable again.
 
-This guide is certainly no written from scratch, but it is a debianized version of a guide that used the LTS version of Ubuntu as the replacement OS. This guide was written by Orville Bennett. You can find the original guide [here](https://orville.thebennettproject.com/articles/installing-ubuntu-14-04-lts-on-a-2011-macbook-pro/).
+This guide in certainly no written from scratch, but it is a debianized version of a guide that used the LTS version of Ubuntu as the replacement OS. This guide was based on that written by Orville Bennett. You can find the original guide [here](https://orville.thebennettproject.com/articles/installing-ubuntu-14-04-lts-on-a-2011-macbook-pro/).
 
 ![rect830-3-3-36](https://user-images.githubusercontent.com/64110504/94893124-a73c5100-0443-11eb-9bd2-039d037423e5.png)
 
