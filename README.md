@@ -44,3 +44,5 @@ This is a licit question, specially given the vast number of Linux ditributions.
 9-Reboot.
 
 10-Repeat steps 1 to 6.
+
+# TODO: Finish the steps.
