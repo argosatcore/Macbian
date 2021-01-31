@@ -1,0 +1,63 @@
+#----Set keyboard layout:
+setxkbmap us intl mac &
+
+
+#----Bluetooth off by default:
+bluetooth off &
+
+
+#----Daemonize macfanctld:
+macfanctld -f &
+
+#----Set mouse's speed to 9 times faster:
+xset m 9 0 &
+
+
+#----Start compositor:
+compton --config /home/carlos/.config/compton/compton.conf &
+
+
+#----Start redshift in panel:
+redshift-gtk &
+
+#----Set screen brightness to 5%:
+brightnessctl set 5% 
+
+
+#----Start the Tint2 panel:
+tint2 &
+
+
+#----Start notification daemon:
+dunst &
+
+
+#----Lefthanded mouse:
+#xmodmap .mouseconfig &
+
+
+#----Swap Esc with Caps Lock:
+xmodmap .speedswapper &
+
+
+#----Set cursor:
+xsetroot -cursor_name right_ptr &
+
+
+#----Start the Simple X Hot Key Daemon:
+pgrep -x sxhkd > /dev/null || sxhkd &
+
+
+#----Set random wallpapers:
+#feh --bg-fill --randomize /home/carlos/Imágenes/Wallpapers/ &
+
+
+#----Set fixed wallpaper:
+feh --bg-fill ~/Pictures/Wallpapers/elcapitán.jpg &
+
+#----Set nord palette for temrinal:
+#xrdb .Xresources &
+
+
+#----Start window manager:
+exec bspwm
