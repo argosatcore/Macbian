@@ -18,13 +18,13 @@ This is a licit question, specially given the vast number of Linux ditributions.
 2- A 2011 MacBook Pro with a defective dedicated graphics card.
 
 # Steps
-1- Turn on the defective MacBook Pro (or restart if it was already on) and immediatelypress  and hold the `option` key. 
+1-Turn on the defective MacBook Pro (or restart if it was already on) and immediatelypress  and hold the `option` key. 
 
-2- Select the usb key that contains that Debian GNU/Linux OS. After you have selected it, you will be greeted by th Grub bootloader menu.
+2-Select the usb key that contains that Debian GNU/Linux OS. After you have selected it, you will be greeted by th Grub bootloader menu.
 
-3- Once in the booloader menu, press the `e` key in order to edit the boot parameters.
+3-Once in the booloader menu, press the `e` key in order to edit the boot parameters.
 
-4- Look for the line set gfxpayload=keep. Once you’ve found it, type the following lines underneath to disable the AMD graphics card:
+4-Look for the line set gfxpayload=keep. Once you’ve found it, type the following lines underneath to disable the AMD graphics card:
     
     outb 0x728 1
     outb 0x710 2
@@ -36,4 +36,11 @@ This is a licit question, specially given the vast number of Linux ditributions.
     i915.lvds_channel_mode=2 i915.modeset=1 i915.lvds_use_ssc=0
 
 6-Press the `f10` key to save the changes made to the boot parameters.
-7-Now you should be able to 
+
+7-Now you should be able to use the integrated graphics, thus eliminating any graphical glitches that made the computer unusable before. Boot into a `live-session`.
+
+8- Proceed with the installation of the OS.
+
+9-Reboot.
+
+10-Repeat steps 1 to 6.
