@@ -19,8 +19,11 @@ This is a licit question, specially given the vast number of Linux ditributions.
 
 # Steps
 1- Turn on the defective MacBook Pro (or restart if it was already on) and immediatelypress  and hold the `option` key. 
+
 2- Select the usb key that contains that Debian GNU/Linux OS. After you have selected it, you will be greeted by th Grub bootloader menu.
+
 3- Once in the booloader menu, press the `e` key in order to edit the boot parameters.
+
 4- Look for the line set gfxpayload=keep. Once you’ve found it, type the following lines underneath to disable the AMD graphics card:
     
     outb 0x728 1
